@@ -1,0 +1,66 @@
+
+*:focus{
+    outline: none;
+}
+
+.modalBackground{
+    position: absolute;
+    background-color: #00000099;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    border: none;
+    border-radius: .5em;
+    margin-top: 80px;
+    
+}
+
+.modalHeader{
+    padding: .5em;
+}
+
+.modalElements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    gap: 10px;
+}
+
+.inputModal{
+    width: 70%;
+    height: 3em;
+    resize: none;
+    border: none;
+    border-radius: .5em;
+    box-sizing: border-box;
+    padding: 1em;
+    field-sizing: content;
+}
+
+
+button.createTask {
+    border: none;
+    border-radius: .5em;
+    padding: .1em;
+    width: 25%;
+    height: 2.5em;
+    box-sizing: border-box;
+    align-self: center;
+
+}

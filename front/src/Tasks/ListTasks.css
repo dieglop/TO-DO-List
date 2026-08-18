@@ -1,0 +1,57 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.username{
+    align-self:flex-start;
+    margin-left: 13%;
+}
+
+.tasksTable{
+    width: 85%;
+    height: auto;
+}
+
+table thead th{
+    padding-bottom: 3%;
+}
+
+button{
+    max-width: 150px;
+    align-self: flex-end;
+    padding: .2em;
+    border: none;
+    border-radius: .3em;
+    height: 2.5em;
+    width: 9em;
+    margin-top: .2em;
+
+}
+
+button.delete{
+    border: none;
+    padding: 0.5em;
+    border-radius: .5em;
+
+}
+
+button.delete:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+tr:hover{
+    background-color: rgb(0, 13, 37);
+}
+
+button.newTask{
+    margin-right: 16%;
+}

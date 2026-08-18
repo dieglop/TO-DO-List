@@ -1,0 +1,59 @@
+*:focus{
+    outline: none;
+}
+
+#root{
+    justify-content: center;
+    border: none;
+}
+
+.loginForm {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 50%;
+    max-width: 400px;
+    padding: 2em;
+    gap: .5em;
+    border: none;
+    border-radius: .5em;
+}
+
+input{
+    padding: .5em;
+    border-radius: .2em;
+    border: none;
+    height: 2.5em;
+}
+
+button.signin{
+    max-width: 150px;
+    align-self: flex-end;
+    padding: .2em;
+    border: none;
+    border-radius: .3em;
+    height: 2.5em;
+    width: 9em;
+    margin-top: .2em;
+
+}
+
+.signin:hover{
+    background-color: #1a501a;
+}
+
+@media (min-width: 200px){
+    .displayArea{
+        height: 100%;
+        
+    }
+}
